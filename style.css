@@ -7,7 +7,7 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 
-#container {
+#container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,3 +170,67 @@ button:hover {
     background: rgba(45,179,255,1);
     box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
 }
+
+/*---------------------SECOND PAGE -----------------------*/
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+#hello-2 {
+    margin: -15px;
+}
+
+#upload-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+  
+input[type=file] {
+    width: 350px;
+    max-width: 100%;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    border: 0px solid #555;
+    text-decoration: none !important;
+}
+  
+  input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: rgb(215, 215, 215);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #434343;
+    color: white;
+  }
+
+#upload-image-button-container {
+    padding-top: 20px;
+}
+
+/*--------------------- THIRD PAGE ---------------------*/
+
+#container3 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+  
